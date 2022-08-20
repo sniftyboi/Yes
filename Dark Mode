@@ -49,12 +49,12 @@ local Window = Library.CreateLib("test", "DarkTheme")
     end)
  
     
-     --Theme
+         --Theme
     local Other = Window:NewTab("Gui Theme")
     local OtherSection = Other:NewSection("Gui Theme")
     
 	OtherSection:NewButton("Light Mode", "Light.", function()
-		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sniftyboi/Yes/main/.gitignore"))()
+		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sniftyboi/Light-Mode/main/Light%20Theme"))()
 		local Window = Library.CreateLib("test", "LightTheme")
 	end)
 
@@ -64,21 +64,21 @@ local Window = Library.CreateLib("test", "DarkTheme")
 	end)
 
 	OtherSection:NewButton("Purple Mode", "Purpleeeee.", function()
-		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sniftyboi/Purple-Mode/main/Purple%20Mode"))()
 		local Window = Library.CreateLib("test", "GrapeTheme")
 	end)
 
     OtherSection:NewButton("Red and Black Mode", "Yes it's so ugly.", function()
-		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sniftyboi/Blood/main/Blood"))()
 		local Window = Library.CreateLib("test", "BloodTheme")
 	end)
 
 	OtherSection:NewButton("Ocean Mode", "E.", function()
-		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sniftyboi/Ocean/main/Ocean"))()
 		local Window = Library.CreateLib("test", "Ocean")
 	end)
 
 	OtherSection:NewButton("Red and Black but different Mode", "Light.", function()
-		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+		local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/sniftyboi/Midnight/main/Midnight"))()
 		local Window = Library.CreateLib("test", "Midnight")
 	end)
